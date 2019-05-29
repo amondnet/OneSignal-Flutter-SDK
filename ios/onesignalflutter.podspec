@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'Flutter'
   s.dependency 'OneSignal', '>= 2.9.5', '< 3.0'
   s.ios.deployment_target = '8.0'
-  s.static_framework = true
+  #s.static_framework = true
 end
